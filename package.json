@@ -6,7 +6,7 @@
     "test": "test"
   },
   "scripts": {
-    "api-test-production": "newman run test/NewMan_Testing.postman_collection.json"
+    "api-test-production": "newman run tests/NewMan_Testing.postman_collection.json"
   },
   "author": "RUM",
   "dependencies": {
