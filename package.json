@@ -1,0 +1,15 @@
+{
+  "name": "newman-testing",
+  "version": "1.0.0",
+  "description": "Testing",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "api-test-production": "newman run test/NewMan_Testing.postman_collection.json"
+  },
+  "author": "RUM",
+  "dependencies": {
+    "newman": "^4.5.7"
+  }
+}
